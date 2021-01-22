@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS 
+
+    tutors (
+
+        id INTEGER PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+
+        name VARCHAR(50) NOT NULL,
+
+        lastName VARCHAR(50) NOT NULL,
+
+        country VARCHAR(50) NOT NULL
+
+    );
